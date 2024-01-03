@@ -1,0 +1,67 @@
+# General
+.DS_Store
+.idea
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.log
+*.tmp
+*.temp
+*.sw?
+*~
+*.lock
+
+# Flutter/Dart/Pub
+**/flutter_export_environment.sh
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.generated_plugin_registrant.dart
+**/build/
+**/pubspec.lock
+**/packages
+flutter_*.png
+.packages
+pubspec.lock
+
+# Android
+**/android/**/*.gradle
+**/android/.gradle
+**/android/captures/
+**/android/gradle/wrapper/gradle-wrapper.properties
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+
+# iOS
+**/ios/**/*.generated.dart
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/FlutterPluginRegistrant/
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcodeproj
+**/ios/Runner.xcworkspace
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/flutter_export_environment.sh
+
+# macOS
+**/macos/Podfile.lock
+**/macos/Pods/
+**/macos/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Visual Studio Code
+.vscode/
